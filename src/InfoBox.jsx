@@ -23,7 +23,7 @@ export default function InfoBox({info}){
         <Typography variant="body2" sx={{ color: 'text.secondary' }} component={"span"}>
           <div>Temp: {info.temp}</div>
           <div>Humidity: {info.humidity}</div>
-          <div>Fellsike: {info.feelsLike}</div>
+          <div>Feelslike: {info.feelsLike}</div>
            <div>MinTemp: {info.tempMin}</div>
         </Typography>
       </CardContent>
