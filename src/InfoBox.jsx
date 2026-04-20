@@ -25,6 +25,7 @@ export default function InfoBox({info}){
           <div>Humidity: {info.humidity}</div>
           <div>Feelslike: {info.feelsLike}</div>
            <div>MinTemp: {info.tempMin}</div>
+            <div>MaxTemp: {info.tempMax}</div>
         </Typography>
       </CardContent>
      
