@@ -30,6 +30,7 @@ export default function InfoBox({info}){
           <div>Feelslike: {info.feelsLike}</div>
            <div>MinTemp: {info.tempMin}</div>
             <div>MaxTemp: {info.tempMax}</div>
+            <p>These are current infos!</p>
         </Typography>
       </CardContent>
      
